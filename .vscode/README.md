@@ -37,3 +37,5 @@ $ cp .env.exemple .env
 
 Set your environment variables in `.env` file. Like 
 `OPENAI_API_KEY` value.
+
+"THANK YOU"
