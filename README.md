@@ -38,4 +38,9 @@ $ cp .env.exemple .env
 Set your environment variables in `.env` file. Like 
 `OPENAI_API_KEY` value.
 
+### RUN SERVER
+```bash
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
+```
+
 "THANK YOU"
