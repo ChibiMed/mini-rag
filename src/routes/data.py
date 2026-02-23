@@ -35,7 +35,7 @@ async def upload_data(project_id: str, file: UploadFile, app_settings: Settings 
         )
     
     async with aiofiles.open(file_path, 'wb') as f:
-        while chunk := await file.read(app_settings.FILE_CHUNK_SIZE):  # Read the file in chunks
+        while chunk := await file.read(app_settings.FILE_DEFAULT_CHUNK_SIZE):  # Read the file in chunks
             await f.write(chunk)
 
     
