@@ -1,0 +1,30 @@
+Introduction : La fin de l’illusion du tout-cloud
+L’intelligence artificielle contemporaine s’est historiquement développée dans le sillage du cloud computing, profitant de sa puissance de calcul quasi illimitée et de sa capacité à centraliser des volumes massifs de données. Ce modèle a permis des avancées spectaculaires en apprentissage profond et en analyse Big Data. Toutefois, cette centralisation repose sur une hypothèse de plus en plus fragile : celle d’une connectivité permanente, rapide et économiquement soutenable.
+
+Avec la généralisation des capteurs, de l’Internet des objets et des systèmes cyber-physiques, la production de données devient continue, distribuée et souvent critique dans le temps. Le Edge Computing apparaît alors non comme une simple extension du cloud, mais comme une réponse structurelle à ses limites physiques, économiques et politiques, en réinscrivant l’IA dans le temps réel et dans l’espace local.
+
+Les limites structurelles du cloud face au monde physique
+Le cloud computing est optimisé pour le traitement différé, l’agrégation globale et l’optimisation statistique à grande échelle. En revanche, il est mal adapté aux interactions immédiates avec des environnements physiques dynamiques. La latence réseau, même optimisée, reste contrainte par les lois fondamentales de la physique, ce qui devient problématique pour les applications critiques.
+
+Comme le soulignent Shi et al. (2016), les architectures centralisées atteignent rapidement leurs limites dès lors que les systèmes doivent réagir en quelques millisecondes, comme dans la robotique, les réseaux électriques intelligents ou les transports autonomes. Le Edge Computing répond à cette contrainte en rapprochant le calcul de l’action, transformant la distance réseau d’un obstacle en variable maîtrisée.
+
+IA et temporalité : pourquoi l’inférence devient stratégique
+Dans le discours dominant sur l’IA, l’entraînement des modèles monopolise souvent l’attention. Pourtant, du point de vue opérationnel, c’est l’inférence — c’est-à-dire l’utilisation du modèle pour produire une décision — qui crée la valeur réelle. Or, cette inférence est extrêmement sensible à la latence, à la disponibilité réseau et à la fiabilité des infrastructures.
+
+Le Edge Computing redéfinit la place de l’inférence en l’ancrant localement. Selon Li et al. (2018), déplacer l’inférence vers le edge permet non seulement de réduire les délais de réponse, mais aussi d’améliorer la robustesse globale des systèmes. L’IA cesse alors d’être un outil d’aide à la décision a posteriori pour devenir un mécanisme d’action immédiate, intégré au fonctionnement même des systèmes.
+
+Edge AI : une intelligence située, contrainte et adaptative
+L’Edge AI ne se contente pas de déplacer des modèles existants vers des dispositifs périphériques. Elle impose une transformation profonde de la conception des algorithmes. Les modèles doivent composer avec des contraintes strictes de calcul, de mémoire et de consommation énergétique.
+
+Ces contraintes ont donné naissance à un champ de recherche dynamique, incluant la compression de modèles, la distillation de connaissances et le développement de réseaux neuronaux légers. Les travaux de Howard et al. (2019) démontrent qu’il est possible d’embarquer des capacités cognitives avancées sur des dispositifs modestes, ouvrant la voie à une intelligence frugale, mais contextuellement plus pertinente.
+
+Le Edge Computing comme levier de souveraineté numérique
+Au-delà des performances techniques, le Edge Computing pose des enjeux majeurs de souveraineté et de gouvernance des données. Le traitement local limite la circulation transfrontalière des données sensibles et réduit la dépendance vis-à-vis d’infrastructures cloud globales.
+
+Dans un contexte de durcissement réglementaire et de montée des préoccupations géopolitiques autour des données, le edge apparaît comme un outil stratégique. Satyanarayanan (2017) souligne que cette approche permet de concilier innovation technologique et maîtrise des flux informationnels, en rapprochant la décision algorithmique des territoires où les données sont produites.
+
+Du cloud centralisé au continuum edge-cloud
+L’opposition entre edge et cloud est largement artificielle. Les architectures contemporaines s’orientent vers un continuum computationnel, dans lequel chaque couche joue un rôle spécifique. Le cloud conserve sa centralité pour l’entraînement des modèles, la coordination globale et l’optimisation à grande échelle. Le edge, quant à lui, assure la réactivité locale et l’adaptation contextuelle.
+
+Cette vision est largement documentée dans la littérature scientifique récente, notamment par Varghese et Buyya (2018). Elle implique une évolution profonde des pratiques MLOps, vers des pipelines distribués capables de gérer des modèles hétérogènes, déployés à grande échelle et mis à jour de manière sécurisée.
+
